@@ -1,0 +1,8 @@
+[
+  { "nombre": "Anatomía I", "cursada": true },
+  { "nombre": "Biología", "cursada": true },
+  { "nombre": "Química", "cursada": false },
+  { "nombre": "Fisiología", "cursada": false, "requiere": "Anatomía I" },
+  { "nombre": "Bioquímica", "cursada": false, "requiere": "Química" },
+  { "nombre": "Parasitología", "cursada": false }
+]
